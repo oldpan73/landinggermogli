@@ -1,0 +1,39 @@
+/* Navbar */
+.navbar {
+    background-color: #2e2e2e; /* Colore di sfondo della navbar */
+  }
+  .navbar-brand {
+    color: white !important; /* Colore del testo della navbar */
+    font-size: 24px;
+  }
+  .navbar-brand img {
+    max-height: 50px; /* Impostiamo la dimensione del logo */
+    width: auto;
+  }
+  /* Slideshow - Transizione da destra a sinistra */
+  .carousel-item {
+    transition: transform 1s ease-in-out;
+  }
+  .carousel-inner {
+    display: flex;
+    overflow: hidden;
+  }
+  .carousel-item img {
+    width: 100%;
+    object-fit: cover;
+  }
+  .carousel-control-prev, .carousel-control-next {
+    width: 5%;
+  }
+  .carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: black;
+  }
+  .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+  }
+  .footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f9fa;
+  }
